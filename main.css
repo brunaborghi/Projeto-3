@@ -1,0 +1,73 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: pink;
+}
+
+#cabecallho .nav .nav-link.active {
+    background-color: #fff;
+    color: pink;
+}
+
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}   
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.navbar-toggler {
+    background-color: #ffeae6;
+    
+}
+
+.section-title {
+    font-family: Pacifico, cursive;
+}
+
+.section-title span {
+    color: pink;
+}
+
+
+#sobre-o-restaurante,
+#cardapio {
+    background-color: #ffeae6;
+}
+
+.text-colored {
+    color: pink;
+}
+
+.nav-cardapio .nav-link.active.nav,
+#fale-conosco button {
+    background-color: pink;
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: pink;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+   
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
